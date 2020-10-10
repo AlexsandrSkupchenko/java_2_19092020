@@ -27,6 +27,7 @@ public class ChatServer {
             while (true) {
                 String msg = in.readUTF();
                 System.out.println("сообщение клиента " + msg);
+
             }
         } catch (IOException e) {
             e.printStackTrace();
