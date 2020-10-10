@@ -22,6 +22,7 @@ public class ChatClient {
                 }
             }).start();
 
+
             while (true) {
                 String msg = in.readUTF();
                 System.out.println("сообщение сервера " + msg);
